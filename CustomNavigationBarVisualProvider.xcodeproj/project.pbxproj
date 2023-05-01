@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F70A44F29FA6B6C00BABABE /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A44E29FA6B6C00BABABE /* AppDelegate.mm */; };
+		4F70A45229FA6B6C00BABABE /* SceneDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A45129FA6B6C00BABABE /* SceneDelegate.mm */; };
+		4F70A45529FA6B6C00BABABE /* PurpleViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A45429FA6B6C00BABABE /* PurpleViewController.mm */; };
+		4F70A45A29FA6B6D00BABABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F70A45929FA6B6D00BABABE /* Assets.xcassets */; };
+		4F70A45D29FA6B6D00BABABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F70A45B29FA6B6D00BABABE /* LaunchScreen.storyboard */; };
+		4F70A46029FA6B6D00BABABE /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A45F29FA6B6D00BABABE /* main.mm */; };
+		4F70A46829FA6B9D00BABABE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F70A46729FA6B9D00BABABE /* UIKit.framework */; };
+		4F70A46B29FA6CB800BABABE /* CustomNavigationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A46929FA6CB800BABABE /* CustomNavigationController.mm */; };
+		4F70A46E29FA6DD400BABABE /* BlueViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A46C29FA6DD400BABABE /* BlueViewController.mm */; };
+		4F70A47129FA6E5E00BABABE /* CustomNavigationBar.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A46F29FA6E5E00BABABE /* CustomNavigationBar.mm */; };
+		4F70A47429FA6F3400BABABE /* UINavigationBar+Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A47229FA6F3400BABABE /* UINavigationBar+Private.mm */; };
+		4F70A47729FA705800BABABE /* CustomNavigationBarVisualProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A47529FA705800BABABE /* CustomNavigationBarVisualProvider.mm */; };
+		4F70A47A29FA831C00BABABE /* NSObject+Foundation_IvarDescription.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F70A47929FA831C00BABABE /* NSObject+Foundation_IvarDescription.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F70A44A29FA6B6C00BABABE /* CustomNavigationBarVisualProvider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNavigationBarVisualProvider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F70A44D29FA6B6C00BABABE /* AppDelegate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AppDelegate.hpp; sourceTree = "<group>"; };
+		4F70A44E29FA6B6C00BABABE /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		4F70A45029FA6B6C00BABABE /* SceneDelegate.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SceneDelegate.hpp; sourceTree = "<group>"; };
+		4F70A45129FA6B6C00BABABE /* SceneDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SceneDelegate.mm; sourceTree = "<group>"; };
+		4F70A45329FA6B6C00BABABE /* PurpleViewController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PurpleViewController.hpp; sourceTree = "<group>"; };
+		4F70A45429FA6B6C00BABABE /* PurpleViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PurpleViewController.mm; sourceTree = "<group>"; };
+		4F70A45929FA6B6D00BABABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F70A45C29FA6B6D00BABABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F70A45E29FA6B6D00BABABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F70A45F29FA6B6D00BABABE /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		4F70A46729FA6B9D00BABABE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4F70A46929FA6CB800BABABE /* CustomNavigationController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CustomNavigationController.mm; sourceTree = "<group>"; };
+		4F70A46A29FA6CB800BABABE /* CustomNavigationController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CustomNavigationController.hpp; sourceTree = "<group>"; };
+		4F70A46C29FA6DD400BABABE /* BlueViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = BlueViewController.mm; sourceTree = "<group>"; };
+		4F70A46D29FA6DD400BABABE /* BlueViewController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BlueViewController.hpp; sourceTree = "<group>"; };
+		4F70A46F29FA6E5E00BABABE /* CustomNavigationBar.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CustomNavigationBar.mm; sourceTree = "<group>"; };
+		4F70A47029FA6E5E00BABABE /* CustomNavigationBar.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CustomNavigationBar.hpp; sourceTree = "<group>"; };
+		4F70A47229FA6F3400BABABE /* UINavigationBar+Private.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "UINavigationBar+Private.mm"; sourceTree = "<group>"; };
+		4F70A47329FA6F3400BABABE /* UINavigationBar+Private.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "UINavigationBar+Private.hpp"; sourceTree = "<group>"; };
+		4F70A47529FA705800BABABE /* CustomNavigationBarVisualProvider.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CustomNavigationBarVisualProvider.mm; sourceTree = "<group>"; };
+		4F70A47629FA705800BABABE /* CustomNavigationBarVisualProvider.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CustomNavigationBarVisualProvider.hpp; sourceTree = "<group>"; };
+		4F70A47829FA831C00BABABE /* NSObject+Foundation_IvarDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Foundation_IvarDescription.h"; sourceTree = "<group>"; };
+		4F70A47929FA831C00BABABE /* NSObject+Foundation_IvarDescription.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSObject+Foundation_IvarDescription.mm"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F70A44729FA6B6C00BABABE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F70A46829FA6B9D00BABABE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F70A44129FA6B6C00BABABE = {
+			isa = PBXGroup;
+			children = (
+				4F70A44C29FA6B6C00BABABE /* CustomNavigationBarVisualProvider */,
+				4F70A44B29FA6B6C00BABABE /* Products */,
+				4F70A46629FA6B9D00BABABE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F70A44B29FA6B6C00BABABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F70A44A29FA6B6C00BABABE /* CustomNavigationBarVisualProvider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F70A44C29FA6B6C00BABABE /* CustomNavigationBarVisualProvider */ = {
+			isa = PBXGroup;
+			children = (
+				4F70A44D29FA6B6C00BABABE /* AppDelegate.hpp */,
+				4F70A44E29FA6B6C00BABABE /* AppDelegate.mm */,
+				4F70A45029FA6B6C00BABABE /* SceneDelegate.hpp */,
+				4F70A45129FA6B6C00BABABE /* SceneDelegate.mm */,
+				4F70A46A29FA6CB800BABABE /* CustomNavigationController.hpp */,
+				4F70A46929FA6CB800BABABE /* CustomNavigationController.mm */,
+				4F70A47029FA6E5E00BABABE /* CustomNavigationBar.hpp */,
+				4F70A46F29FA6E5E00BABABE /* CustomNavigationBar.mm */,
+				4F70A47629FA705800BABABE /* CustomNavigationBarVisualProvider.hpp */,
+				4F70A47529FA705800BABABE /* CustomNavigationBarVisualProvider.mm */,
+				4F70A45329FA6B6C00BABABE /* PurpleViewController.hpp */,
+				4F70A45429FA6B6C00BABABE /* PurpleViewController.mm */,
+				4F70A46D29FA6DD400BABABE /* BlueViewController.hpp */,
+				4F70A46C29FA6DD400BABABE /* BlueViewController.mm */,
+				4F70A47329FA6F3400BABABE /* UINavigationBar+Private.hpp */,
+				4F70A47229FA6F3400BABABE /* UINavigationBar+Private.mm */,
+				4F70A45929FA6B6D00BABABE /* Assets.xcassets */,
+				4F70A45B29FA6B6D00BABABE /* LaunchScreen.storyboard */,
+				4F70A45E29FA6B6D00BABABE /* Info.plist */,
+				4F70A45F29FA6B6D00BABABE /* main.mm */,
+				4F70A47829FA831C00BABABE /* NSObject+Foundation_IvarDescription.h */,
+				4F70A47929FA831C00BABABE /* NSObject+Foundation_IvarDescription.mm */,
+			);
+			path = CustomNavigationBarVisualProvider;
+			sourceTree = "<group>";
+		};
+		4F70A46629FA6B9D00BABABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F70A46729FA6B9D00BABABE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F70A44929FA6B6C00BABABE /* CustomNavigationBarVisualProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F70A46329FA6B6D00BABABE /* Build configuration list for PBXNativeTarget "CustomNavigationBarVisualProvider" */;
+			buildPhases = (
+				4F70A44629FA6B6C00BABABE /* Sources */,
+				4F70A44729FA6B6C00BABABE /* Frameworks */,
+				4F70A44829FA6B6C00BABABE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNavigationBarVisualProvider;
+			productName = CustomNavigationBarVisualProvider;
+			productReference = 4F70A44A29FA6B6C00BABABE /* CustomNavigationBarVisualProvider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F70A44229FA6B6C00BABABE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4F70A44929FA6B6C00BABABE = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 4F70A44529FA6B6C00BABABE /* Build configuration list for PBXProject "CustomNavigationBarVisualProvider" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F70A44129FA6B6C00BABABE;
+			productRefGroup = 4F70A44B29FA6B6C00BABABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F70A44929FA6B6C00BABABE /* CustomNavigationBarVisualProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F70A44829FA6B6C00BABABE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F70A45D29FA6B6D00BABABE /* LaunchScreen.storyboard in Resources */,
+				4F70A45A29FA6B6D00BABABE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F70A44629FA6B6C00BABABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F70A45529FA6B6C00BABABE /* PurpleViewController.mm in Sources */,
+				4F70A44F29FA6B6C00BABABE /* AppDelegate.mm in Sources */,
+				4F70A47729FA705800BABABE /* CustomNavigationBarVisualProvider.mm in Sources */,
+				4F70A46E29FA6DD400BABABE /* BlueViewController.mm in Sources */,
+				4F70A46029FA6B6D00BABABE /* main.mm in Sources */,
+				4F70A46B29FA6CB800BABABE /* CustomNavigationController.mm in Sources */,
+				4F70A47429FA6F3400BABABE /* UINavigationBar+Private.mm in Sources */,
+				4F70A47A29FA831C00BABABE /* NSObject+Foundation_IvarDescription.mm in Sources */,
+				4F70A47129FA6E5E00BABABE /* CustomNavigationBar.mm in Sources */,
+				4F70A45229FA6B6C00BABABE /* SceneDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F70A45B29FA6B6D00BABABE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F70A45C29FA6B6D00BABABE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F70A46129FA6B6D00BABABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4F70A46229FA6B6D00BABABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F70A46429FA6B6D00BABABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomNavigationBarVisualProvider/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CustomNavigationBarVisualProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F70A46529FA6B6D00BABABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P53D29U9LJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomNavigationBarVisualProvider/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pookjw.CustomNavigationBarVisualProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F70A44529FA6B6C00BABABE /* Build configuration list for PBXProject "CustomNavigationBarVisualProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F70A46129FA6B6D00BABABE /* Debug */,
+				4F70A46229FA6B6D00BABABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F70A46329FA6B6D00BABABE /* Build configuration list for PBXNativeTarget "CustomNavigationBarVisualProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F70A46429FA6B6D00BABABE /* Debug */,
+				4F70A46529FA6B6D00BABABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F70A44229FA6B6C00BABABE /* Project object */;
+}
